@@ -1,7 +1,7 @@
 import { Server } from 'http'
 import { createProbot, ApplicationFunction } from 'probot'
 import { findPrivateKey } from 'probot/lib/private-key'
-import logRequestErrors from 'probot/lib/middleware/log-request-errors'
+import { logRequestErrors } from 'probot/lib/middleware/log-request-errors'
 import * as process from 'process'
 
 import { hooks } from './hooks'
@@ -56,7 +56,7 @@ export function main(port: number): Server {
   apps.forEach(appFn => probot.load(appFn))
 
   // Register error handler as the last middleware
-  probot.server.use(logRequestErrors as any)
+  probot.server.use(logRequestErrors)
 
   /* Start the server */
 
