@@ -1,0 +1,10 @@
+endpoint: https://emma-56cd6be5c8.herokuapp.com/emma-boilerplates/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: typescript-client
+    output: ../src/generated/prisma-client/
+
+hooks:
+  post-deploy:
+    - prisma generate

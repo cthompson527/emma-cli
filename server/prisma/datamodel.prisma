@@ -1,0 +1,13 @@
+type Boilerplate {
+  id: ID! @unique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+
+  owner: String!
+  repository: String!
+
+  name: String! @unique
+  description: String!
+  branch: String!
+  path: String!
+}

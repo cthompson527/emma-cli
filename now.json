@@ -1,0 +1,20 @@
+{
+  "public": false,
+  "name": "emma-boilerplates",
+  "version": 2,
+  "alias": "emma-boilerplates.now.sh",
+  "builds": [
+    { "src": "src/webhooks/index.ts", "use": "@now/node-server@canary" }
+  ],
+  "routes": [{ "src": "/webhooks/.*", "dest": "src/webhooks/index.ts" }],
+  "env": {
+    "APP_ID": "@ocb-app-id",
+    "WEBHOOK_SECRET": "@ocb-webhook-secret",
+    "PRIVATE_KEY": "@ocb-private-key",
+    "SENTRY_DSN": "@ocb-sentry-dsn"
+  },
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "emma-boilerplates",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {},
+  "dependencies": {
+    "prisma-client-lib": "^1.28.5",
+    "probot": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.4",
+    "prisma": "^1.28.5"
+  },
+  "license": "MIT"
+}
