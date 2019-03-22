@@ -1,0 +1,12 @@
+coverage:
+  status:
+    project:
+      default: off
+      emma-boilerplates:
+        target: 100%
+        flags: emma-boilerplates
+
+flags:
+  emma-boilerplates:
+    paths:
+      - server/

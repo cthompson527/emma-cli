@@ -5,6 +5,8 @@
   "scripts": {},
   "dependencies": {
     "algoliasearch": "^3.32.1",
+    "diff-by": "^1.0.1",
+    "multilines": "^1.0.2",
     "prisma-client-lib": "^1.28.5",
     "probot": "^9.0.2",
     "yup": "^0.27.0"

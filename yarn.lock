@@ -2776,6 +2776,13 @@ dezalgo@^1.0.0:
     asap "^2.0.0"
     wrappy "1"
 
+diff-by@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/diff-by/-/diff-by-1.0.1.tgz#8bdd369e48f030ee4caf282afb0a042e1df00720"
+  integrity sha512-jXns8BLuPCRY3KUZjm8j+LMg4MoZL2FE166zTF+hEBDMHIJffjhjZFLTooIzGuYLbrGP/PtZdG1jAW5XtZlRXw==
+  dependencies:
+    lodash.isequal "^4.5.0"
+
 diff-sequences@^24.3.0:
   version "24.3.0"
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-24.3.0.tgz#0f20e8a1df1abddaf4d9c226680952e64118b975"
@@ -5440,6 +5447,11 @@ lodash.isboolean@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz#6c2e171db2a257cd96802fd43b01b20d5f5870f6"
   integrity sha1-bC4XHbKiV82WgC/UOwGyDV9YcPY=
+
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
 lodash.isinteger@^4.0.4:
   version "4.0.4"
